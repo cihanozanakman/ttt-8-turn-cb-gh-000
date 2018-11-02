@@ -13,8 +13,9 @@ while actionCount < 10
     index = value - 1
     if board[index] == " "
       board[index] = "X"
+      display_board(board)
       actionCount += 1
     end
   end
-  
+
 end
