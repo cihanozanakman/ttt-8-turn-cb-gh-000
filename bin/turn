@@ -17,5 +17,4 @@ while actionCount < 10
       actionCount += 1
     end
   end
-
 end
