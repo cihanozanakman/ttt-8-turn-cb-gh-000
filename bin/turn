@@ -13,6 +13,6 @@ while actionCount < 10
     index = value - 1
   end
   if board[index] == " "
-    
+    board[index] = "X"
   end
 end
