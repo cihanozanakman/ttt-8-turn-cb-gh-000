@@ -5,7 +5,7 @@ actionCount = 0
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-while actionCount < 10
+while actionCount < 9
   turn(board)
   value = gets.strip
   value = value.to_i
