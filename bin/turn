@@ -11,8 +11,10 @@ while actionCount < 10
   value = value.to_i
   if value < 10 && value > 0
     index = value - 1
+    if board[index] == " "
+      board[index] = "X"
+      actionCount += 1
+    end
   end
-  if board[index] == " "
-    board[index] = "X"
-  end
+  
 end
