@@ -19,7 +19,7 @@ def valid_move?(board, index)
 end
 
 def input_to_index(value)
-  index = value - 1
+  index = value.to_i - 1
   return index
 end
 def move(board, index, value = "X")
