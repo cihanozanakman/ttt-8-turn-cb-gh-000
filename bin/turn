@@ -11,7 +11,7 @@ while actionCount < 9
   value = value.to_i
   if value < 10 && value > 0
     index = input_to_index(value)
-    if valid_move? == true
+    if valid_move?(board, index)
       move(board, index, )
       display_board(board)
       actionCount += 1
