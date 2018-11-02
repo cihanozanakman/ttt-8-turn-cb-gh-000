@@ -10,9 +10,9 @@ while actionCount < 9
   value = gets.strip
   value = value.to_i
   if value < 10 && value > 0
-    index = value - 1
+    index = input_to_index(value)
     if board[index] == " "
-      board[index] = "X"
+      move(board, index, )
       display_board(board)
       actionCount += 1
     end
