@@ -8,6 +8,7 @@ end
 
 def turn(board, value)
   puts "Please enter 1-9:"
+  value = gets.strip
 end
 
 def valid_move?(board, index)
