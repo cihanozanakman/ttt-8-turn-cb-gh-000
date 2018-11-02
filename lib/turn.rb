@@ -6,9 +6,10 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def turn(board, value)
+def turn(board)
   puts "Please enter 1-9:"
   value = gets.strip
+  index = input_to_index(value)
 end
 
 def valid_move?(board, index)
