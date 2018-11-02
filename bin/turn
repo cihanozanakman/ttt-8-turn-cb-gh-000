@@ -10,6 +10,6 @@ while actionCount < 10
   value = gets.strip
   value = value.to_i
   if value < 10 && value > 0
-
+    index = value - 1
   end
 end
