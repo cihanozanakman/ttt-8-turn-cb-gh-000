@@ -11,11 +11,13 @@ def turn(board)
 end
 
 def valid_move?(board, index)
+  if index >= 0 && index <=*
     if board[index] == " "
       return true
     else
       return false
     end
+  end
 end
 
 def input_to_index(value)
