@@ -6,9 +6,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 while actionCount < 9
-  turn(board)
   value = gets.strip
   value = value.to_i
+  turn(board, value)
   if value < 10 && value > 0
     index = input_to_index(value)
     if valid_move?(board, index) == true
