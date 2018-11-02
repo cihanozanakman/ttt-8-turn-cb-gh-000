@@ -11,7 +11,7 @@ def turn(board)
 end
 
 def valid_move?(board, index)
-  if index >= 0 && index <=*
+  if index >= 0 && index <=8
     if board[index] == " "
       return true
     else
