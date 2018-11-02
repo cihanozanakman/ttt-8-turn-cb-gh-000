@@ -8,7 +8,7 @@ display_board(board)
 while actionCount < 9
   value = gets.strip
   value = value.to_i
-  turn(board, value)
+  turn(board)
   if value < 10 && value > 0
     index = input_to_index(value)
     if valid_move?(board, index) == true
